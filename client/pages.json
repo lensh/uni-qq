@@ -1,0 +1,78 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText":"消息",
+				"enablePullDownRefresh":true,
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path": "pages/person/person",
+			"style": {
+				"navigationBarTitleText":"联系人",
+				"enablePullDownRefresh":true,
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path": "pages/social/social",
+			"style": {
+				"navigationBarTitleText":"动态",
+				"enablePullDownRefresh":true,
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path": "pages/user/welcome",
+			"style": {}
+		},
+		{
+			"path": "pages/user/login",
+			"style": {}
+		},
+		{
+			"path": "pages/user/register",
+			"style": {}
+		},
+		{
+			"path": "pages/user/findpass",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "QQ",
+		"navigationBarBackgroundColor": "#47BAFE",
+		"backgroundColor": "#47BAFE"
+	},
+	"tabBar": {
+		"color": "#7F8393",
+		"selectedColor": "#47BAFE",
+		"backgroundColor": "#FBFBFC",
+		"borderStyle": "white",
+		"list": [{
+			"pagePath": "pages/message/message",
+			"text": "消息",
+			"iconPath": "static/tabbar/message.png",
+			"selectedIconPath": "static/tabbar/message_selected.png"
+		}, {
+			"pagePath": "pages/person/person",
+			"text": "联系人",
+			"iconPath": "static/tabbar/person.png",
+			"selectedIconPath": "static/tabbar/person_selected.png"
+		}, {
+			"pagePath": "pages/social/social",
+			"text": "动态",
+			"iconPath": "static/tabbar/social.png",
+			"selectedIconPath": "static/tabbar/social_selected.png"
+		}]
+	}
+}
